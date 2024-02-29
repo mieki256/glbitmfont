@@ -1,0 +1,5 @@
+Compile using the MinGW OSDN version (gcc 9.2.0) or MSYS2 + MinGW 13.2.0.
+MinGW SourceForge version (gcc 6.3.0) can only compile versions that require glfw3.dll.
+
+MinGW OSDN版 (gcc 9.2.0) か、MSYS2 + MinGW 13.2.0 を使ってコンパイルすること。
+MinGW SourceForge版 (gcc 6.3.0) では、glfw3.dll を要求する版しかコンパイルできない。
