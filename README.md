@@ -3,7 +3,7 @@ glbitmfont.h
 
 Use glbitmap() to draw bitmap fonts in OpenGL. It can be used by simply including a single header file.
 
-Support only monospace fonts.
+Support only monospace fonts. ASCII code 0x20 - 0x7f.
 
 Screenshots
 -----------
