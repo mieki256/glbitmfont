@@ -38,11 +38,12 @@ glBitmapFontDrawString("Hello World", GL_FONT_PET2015);
 void glBitmapFontDrawString(char *str, int kind)
 
 kind:
-  GL_FONT_PET2015
-  GL_FONT_PROFONT
-  GL_FONT_SHNM8x16R
-  GL_FONT_SHNM8x16RX2
-  GL_FONT_TERU24B
+  GL_FONT_PET2015      ... 16x16
+  GL_FONT_PET2015S     ... 8x8
+  GL_FONT_PROFONT      ... 12x22
+  GL_FONT_SHNM8x16R    ... 8x16
+  GL_FONT_SHNM8x16RX2  ... 16x32
+  GL_FONT_TERU24B      ... 12x24
 ```
 
 License

@@ -1,6 +1,6 @@
 // glbitmfont.h
 //
-// Last updated: <2024/04/02 04:06:10 +0900>
+// Last updated: <2024/04/02 04:15:38 +0900>
 // by mieki256 , License: CC0 / Public Domain
 //
 // Fonts license :
@@ -658,12 +658,12 @@ static unsigned char font_ter_u24b_png[96][48] = {
 
 enum
 {
-  GL_FONT_PET2015, // 0
-  GL_FONT_PET2015S,
-  GL_FONT_PROFONT,
-  GL_FONT_SHNM8x16R,
-  GL_FONT_SHNM8x16RX2,
-  GL_FONT_TERU24B,
+  GL_FONT_PET2015,     // 0
+  GL_FONT_PET2015S,    // 1
+  GL_FONT_PROFONT,     // 2
+  GL_FONT_SHNM8x16R,   // 3
+  GL_FONT_SHNM8x16RX2, // 4
+  GL_FONT_TERU24B,     // 5
 };
 
 #define GL_FONT_MAX 6
@@ -676,7 +676,7 @@ typedef struct
   unsigned char *adrs;
 } FONTDATA;
 
-FONTDATA fontdatatbl[6] = {
+FONTDATA fontdatatbl[GL_FONT_MAX] = {
     {FONT_PET2015_PNG_WIDTH, FONT_PET2015_PNG_HEIGHT, FONT_PET2015_PNG_CHR_LEN, &font_pet2015_png[0][0]},
     {FONT_PET2015S_PNG_WIDTH, FONT_PET2015S_PNG_HEIGHT, FONT_PET2015S_PNG_CHR_LEN, &font_pet2015s_png[0][0]},
     {FONT_PROFONT_PNG_WIDTH, FONT_PROFONT_PNG_HEIGHT, FONT_PROFONT_PNG_CHR_LEN, &font_profont_png[0][0]},
